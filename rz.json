@@ -1,0 +1,53 @@
+{
+  "count": 3,
+  "items": [
+    {
+      "vn_instance": {
+        "id": "ttWJk5EaaiIwHCiez3Q",
+        "type": "security_zone",
+        "label": "Default routing zone",
+        "junos_evpn_irb_mode": null,
+        "l3_mtu": 9170,
+        "property_set": null,
+        "sz_type": "l3_fabric",
+        "tags": null,
+        "vlan_id": null,
+        "vni_id": null,
+        "vrf_id": 1,
+        "vrf_name": "default"
+      }
+    },
+    {
+      "vn_instance": {
+        "id": "WipopZGGvspoR9OnOv0",
+        "type": "security_zone",
+        "label": "blue",
+        "junos_evpn_irb_mode": "asymmetric",
+        "l3_mtu": 9170,
+        "property_set": null,
+        "sz_type": "evpn",
+        "tags": null,
+        "vlan_id": 201,
+        "vni_id": 20002,
+        "vrf_id": 3,
+        "vrf_name": "blue"
+      }
+    },
+    {
+      "vn_instance": {
+        "id": "mrIjtxIPoQNThRMG1Hg",
+        "type": "security_zone",
+        "label": "red",
+        "junos_evpn_irb_mode": "asymmetric",
+        "l3_mtu": 9170,
+        "property_set": null,
+        "sz_type": "evpn",
+        "tags": null,
+        "vlan_id": 200,
+        "vni_id": 20001,
+        "vrf_id": 2,
+        "vrf_name": "red"
+      }
+    }
+  ]
+}
