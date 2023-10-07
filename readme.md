@@ -28,4 +28,8 @@ In addition, you can query the graph to get a list of all of the Routing Zones c
 
 ## Run the script
 
-1. Click the `Run` button above.
+1. Execute the script
+
+```
+ python3 main.py
+ ```
